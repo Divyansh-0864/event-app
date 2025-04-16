@@ -41,4 +41,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Firebase debug and temp files
 firebase-debug.log
+.firebase/
