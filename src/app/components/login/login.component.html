@@ -1,0 +1,72 @@
+
+<div class="login-container">
+  <mat-card class="login-card mat-elevation-z4">
+    <h2 class="login-title">Login</h2>
+
+    <mat-card-content>
+      <form #loginForm="ngForm" (ngSubmit)="onLogin()">
+        <!-- Email Field -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            type="email"
+            name="email"
+            [(ngModel)]="login.email"
+            #email="ngModel"
+            required
+            email
+          />
+          <mat-error *ngIf="email.invalid && (email.dirty || email.touched)">
+            <span *ngIf="email.errors?.['required']">Email is required</span>
+            <span *ngIf="email.errors?.['email']">Email is invalid</span>
+          </mat-error>
+        </mat-form-field>
+
+        <!-- Password Field -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            [type]="hidePassword ? 'password' : 'text'"
+            name="password"
+            [(ngModel)]="login.password"
+            #password="ngModel"
+            required
+          />
+          <button
+            mat-icon-button
+            matSuffix
+            type="button"
+            (click)="hidePassword = !hidePassword"
+            [attr.aria-label]="'Toggle password visibility'"
+          >
+            <mat-icon>{{
+              hidePassword ? "visibility_off" : "visibility"
+            }}</mat-icon>
+          </button>
+          <mat-error
+            *ngIf="password.invalid && (password.dirty || password.touched)"
+          >
+            Password is required
+          </mat-error>
+        </mat-form-field>
+
+        <!-- Submit -->
+        <button
+          mat-raised-button
+          color="primary"
+          class="full-width"
+          [disabled]="loginForm.invalid"
+          type="submit"
+        >
+          SIGN IN
+        </button>
+      </form>
+
+      <div class="register-link">
+        Not a member? <a routerLink="/register">Register</a>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

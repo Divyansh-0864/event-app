@@ -1,0 +1,24 @@
+.detail-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+}
+
+mat-card-header {
+  padding-bottom: 8px;
+}
+
+mat-card-title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+mat-card-subtitle {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+mat-card-content p {
+  margin: 8px 0;
+  line-height: 1.4;
+}

@@ -1,0 +1,26 @@
+.rose-toolbar {
+  background-color: #e91e63 !important;
+  color: white;
+}
+
+/* title styling */
+.app-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* push sign‑out button to right */
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* outlined white button on colored background */
+.sign-out-button {
+  border-color: white;
+  color: white;
+}
+
+/* subtle white‑overlay on hover */
+.sign-out-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

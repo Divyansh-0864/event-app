@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "c19d",
+      "fullName": "John Doe",
+      "email": "jondoe@mail.com",
+      "password": "123"
+    },
+    {
+      "id": "d617",
+      "fullName": "jane",
+      "email": "jane@mail.co",
+      "password": "1"
+    }
+  ],
+  "events": [
+    {
+      "title": "Angular Workshop",
+      "description": "Learn Angular basics in 10 day bootcamp",
+      "date": "2025-05-08",
+      "location": "Online",
+      "id": "1"
+    },
+    {
+      "id": "e7d8",
+      "title": "JS",
+      "description": "Learn JS",
+      "date": "2025-05-02",
+      "location": "India"
+    }
+  ]
+}
