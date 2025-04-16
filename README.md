@@ -34,11 +34,11 @@ Then open your browser and go to `http://localhost:4200/`.
 
 | Login Page                          | Event List Page                     |
 |------------------------------------|-------------------------------------|
-| ![Login](public\img\Screenshot1.png)    | ![Event List](public\img\Screenshot3.png) |
-
+| ![Login](public/img/Screenshot1.png)    | ![Event List](public/img/Screenshot3.png) |
+| -------------------------------------|--------------------------------------|
 | Create/Edit Event Form             | Register Page                       |
 |------------------------------------|-------------------------------------|
-| ![Event Details](public\img\Screenshot5.png)      | ![Register](public\img\Screenshot2.png) |
+| ![Event Details](public/img/Screenshot5.png)      | ![Register](public/img/Screenshot2.png) |
 
 ---
 
