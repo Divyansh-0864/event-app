@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/event-app",
+    "public": "dist/event-app/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "event-app/dist/event-app/browser/index.html"
       }
     ]
   }

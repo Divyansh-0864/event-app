@@ -11,6 +11,12 @@
       "fullName": "jane",
       "email": "jane@mail.co",
       "password": "1"
+    },
+    {
+      "id": "b27b",
+      "fullName": "abc",
+      "email": "abc@mail.com",
+      "password": "1234"
     }
   ],
   "events": [
@@ -18,15 +24,15 @@
       "title": "Angular Workshop",
       "description": "Learn Angular basics in 10 day bootcamp",
       "date": "2025-05-08",
-      "location": "Online",
+      "location": "Offline",
       "id": "1"
     },
     {
-      "id": "e7d8",
+      "id": "881c",
       "title": "JS",
-      "description": "Learn JS",
-      "date": "2025-05-02",
-      "location": "India"
+      "description": "JS workshop",
+      "date": "2025-04-23T18:30:00.000Z",
+      "location": "Online"
     }
   ]
 }

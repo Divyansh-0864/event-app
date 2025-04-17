@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { MyEvent } from '../../interfaces/myevent'; 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { environment } from '../../../environment/environment';
 
 @Component({
   selector: 'app-home',
