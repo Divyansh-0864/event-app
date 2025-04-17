@@ -73,6 +73,9 @@ event-app/
 
 ---
 
+## 🎥 Demo Video
+![App Demo](public/Demo.mov)
+
 ## 📚 Resources
 
 - [Angular](https://angular.io/)
