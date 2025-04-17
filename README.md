@@ -63,18 +63,19 @@ event-app/
 
 ## 📸 Screenshots
 
-| Login Page                          | Event List Page                     |
-|------------------------------------|-------------------------------------|
-| ![Login](public/img/Screenshot1.png)    | ![Event List](public/img/Screenshot3.png) |
-| -------------------------------------|--------------------------------------|
-| Create/Edit Event Form             | Register Page                       |
-|------------------------------------|-------------------------------------|
-| ![Event Details](public/img/Screenshot5.png)      | ![Register](public/img/Screenshot2.png) |
+| Login Page                           | Event List Page                        |
+|-------------------------------------|----------------------------------------|
+| ![Login](public/img/Screenshot1.png) | ![Event List](public/img/Screenshot3.png) |
+
+| Create/Edit Event Form              | Register Page                          |
+|-------------------------------------|----------------------------------------|
+| ![Event Details](public/img/Screenshot5.png) | ![Register](public/img/Screenshot2.png) |
 
 ---
 
+
 ## 🎥 Demo Video
-![App Demo](public/Demo.mov)
+![App Demo](public\Demo.gif)
 
 ## 📚 Resources
 
