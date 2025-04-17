@@ -75,7 +75,7 @@ event-app/
 
 
 ## 🎥 Demo Video
-![App Demo](public\Demo.gif)
+![App Demo](public/Demo.gif)
 
 ## 📚 Resources
 
